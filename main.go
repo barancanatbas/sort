@@ -1,10 +1,10 @@
 package main
 
-import "github.com/barancanatbas/sort-algorithm/InsertionSort"
+import bubblesort "github.com/barancanatbas/sort-algorithm/bubbleSort"
 
 func main() {
 	array := []int{1, 22, 7, 19, 54, 222, 5}
-	InsertionSort.Demo(array)
+	bubblesort.Demo(array)
 
 	// node := selectionSort.LinkedList(12)
 	// node.Push(20)
